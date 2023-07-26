@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Responsive Food Delivery Services</title>
+</head>
+<body> 
+
+    <h3 class="logo">Food Delivery Services</h3>
+
+    <!-- sidebar -->
+    <div class="sidebar">
+       <div class="sidebar-menu">
+         <span class="fas fa-shopping-cart"></span>
+         <a href="#">Shopping</a>
+       </div>
+       <div class="sidebar-menu">
+          <span class="fas fa-search"></span>
+          <a href="#">Search</a>
+       </div> 
+       <div class="sidebar-menu">
+          <span class="fas fa-home"></span>
+          <a href="#">Home</a>
+       </div>
+       <div class="sidebar-menu">
+        <span class="fas fa-heart"></span>
+        <a href="#">Favs</a>
+       </div>
+       <div class="sidebar-menu">
+         <span class="fas fa-user"></span>
+         <a href="#">Profile</a>
+       </div>
+       <div class="sidebar-menu">
+        <span class="fas fa-sliders-h"></span>
+        <a href="#">Setting</a>
+      </div>
+    </div>
+
+    <!-- main dashboard -->
+    <div class="dashboard">
+        <div class="dashboard-banner">
+            <img src="images/foodbanner.jpg">
+            <div class="banner-promo">
+                <h1><span>30% OFF</span><br>
+                Tasty Food  <br> On Your Table </h1>
+            </div>
+        </div>
+
+        <h3 class="dashboard-title">Recommend Food For You</h3>
+        <div class="dashboard-menu">
+            <a href="#">Favorites</a>
+            <a href="#">Best Seller</a>
+            <a href="#">Near Me</a>
+            <a href="#">Promotion</a>
+            <a href="#">Top Rated</a>
+            <a href="#">All</a>
+        </div>
+
+        <div class="dashboard-content">
+            <div class="dashboard-card">
+                <img class="card-image" src="images/pizza.jpg">
+                <div class="card-detail">
+                    <h4>Italian Pizza<span>€40</span></h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span> 30 mins</p>
+                </div>       
+            </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="images/pasta.jpg">
+                <div class="card-detail">
+                    <h4>Pasta<span>€20</span></h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span> 15 mins</p>
+                </div>     
+            </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="images/kimbap.jpg">
+                <div class="card-detail">
+                    <h4>Kimbap<span>€25</span></h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span> 40 mins</p>
+                </div>     
+            </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="images/lahmacun.jpg">
+                <div class="card-detail">
+                    <h4>Lahmacun<span>€30</span></h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span> 35 mins</p>
+                </div>     
+            </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="images/sütlaç.jpg">
+                <div class="card-detail">
+                    <h4>Sütlaç<span>€35</span></h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span> 20 mins</p>
+                </div>     
+            </div>
+            <div class="dashboard-card">
+                <img class="card-image" src="images/steakburger.jpg">
+                <div class="card-detail">
+                    <h4>Steak Burger<span>€45</span></h4>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="card-time"><span class="fas fa-clock"></span> 50 mins</p>
+                </div>     
+            </div>
+        </div>
+    </div>
+
+    <!-- order dashboard -->
+    <div class="dashboard-order">
+         <h3>Order Menu</h3>
+         <div class="order-address">
+            <p>Address Delivery</p>
+            <h4>271 Lafayette St,Salem,MA 01970</h4>
+         </div>
+         <div class="order-time">
+            <span class="fas fa-clock"></span> 30-35 mins <span class="fas fa-map-marker-alt"></span>3 km
+         </div>
+         
+         <div class="order-wrapper">
+            <div class="order-card">
+                <img class="order-image" src="images/lahmacun.jpg">
+                <div class="order-detail">
+                   <p>Lorem ipsum dolor sit amet.</p> 
+                   <i class="fas fa-times"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">€35</h4>
+            </div>
+            <div class="order-card">
+                <img class="order-image" src="images/pizza.jpg">
+                <div class="order-detail">
+                   <p>Lorem ipsum dolor sit amet.</p> 
+                   <i class="fas fa-times"></i> <input type="text" value="1">
+                </div>
+                <h4 class="order-price">€50</h4>
+            </div>
+            <div class="order-card">
+                <img class="order-image" src="images/sütlaç.jpg">
+                <div class="order-detail">
+                   <p>Lorem ipsum dolor sit amet.</p> 
+                   <i class="fas fa-times"></i> <input type="text" value="3">
+                </div>
+                <h4 class="order-price">€40</h4>
+            </div>
+         </div>
+         <hr class="divider">
+
+         <div class="order-total">
+           <p>Subtotal <span>€205</span></p>
+           <p>Tax (10%) <span>€20.5</span></p>
+           <p>Delivery Fee <span>€4</span></p> 
+
+           <div class="order-promo">
+             <input class="input-promo" type="text" placeholder="Apply Voucher">
+             <button class="button-promo">Find Promo</button>
+           </div>
+           <hr class="divider">
+           <p>Total <span>€229,5</span></p>
+         </div>
+         <button class="checkout">
+            Checkout
+         </button>
+    </div>
+</body>
+</html>
